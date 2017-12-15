@@ -11,7 +11,7 @@ body {
 
 .content-container {
     width: 960px;
-    margin: 140px auto 140px auto;
+    margin: 140px auto;
     padding: 10px;
     overflow: scroll;
 }
@@ -183,7 +183,32 @@ body {
 
  @media screen
  and (max-width: 980px) {
+    .author-section {
+        width: 30%;
+        left: 1%;
+    }
 
+    .nav-link-container {
+        width: 40%;
+        right: 1%;
+    }
+
+    .content-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .content-section {
+        width: 60%;
+        box-sizing: border-box;
+    }
+
+    .sidebar {
+        width: 35%;
+        box-sizing: border-box;
+        height: auto;
+        overflow: auto;
+    }
  }
 
  @media screen
@@ -255,7 +280,9 @@ body {
     .author-name {
         position: static;
         margin: 10px auto;
-        width: 54%;
+        width: 100%;
+        text-align: center;
+        font-size: 9vw;
     }
 
     .nav-header {
@@ -265,13 +292,15 @@ body {
 
     .nav-link-container {
         font-size: 1.2em;
-        width: 62%;
+        width: 100%;
         position: static;
         margin: 10px auto;
+        text-align: center;
     }
 
     .nav-link {
         padding: 0px 5px;
+        font-size: 5vw;
     }
 
     .footer {
@@ -280,6 +309,8 @@ body {
     }
 
     .copyright {
-        width: 59.4%;
+        text-align: center;
+        font-size:3vw;
+        width:100%;
     }
  }
